@@ -111,9 +111,9 @@
                         <viewLayoutGuide key="safeArea" id="jwZ-GW-n4H"/>
                     </view>
                     <connections>
-                        <outlet property="answerLabel" destination="M8r-uv-W8J" id="Vlz-NA-ceI"/>
-                        <outlet property="nextButton" destination="7MQ-IN-o8W" id="jnH-ok-xwo"/>
-                        <outlet property="questionLabel" destination="KDU-ei-Efg" id="Esj-3z-SCC"/>
+                        <outlet property="answerLabel" destination="M8r-uv-W8J" id="lVT-sR-jlC"/>
+                        <outlet property="nextButton" destination="7MQ-IN-o8W" id="Ccl-yc-o0H"/>
+                        <outlet property="questionLabel" destination="KDU-ei-Efg" id="guK-lt-jUi"/>
                         <segue destination="RLr-5R-clg" kind="presentation" identifier="toFinishView" id="caC-AY-uUo"/>
                     </connections>
                 </viewController>
@@ -138,7 +138,7 @@
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="1a8-Q0-3S2" kind="unwind" unwindAction="backWithSegue:" id="ofj-rK-RP5"/>
+                                    <segue destination="1a8-Q0-3S2" kind="unwind" unwindAction="backWithSegue:" id="1e1-Wc-YCe"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fin.png" translatesAutoresizingMaskIntoConstraints="NO" id="Op4-lL-8YD">

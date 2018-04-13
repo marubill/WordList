@@ -65,7 +65,7 @@ class QuestionViewController: UIViewController {
         }
         } else {
             //答えを表示する
-            answerLabel.text = shuffledWordArray[nowNumber]["jananese"]
+            answerLabel.text = shuffledWordArray[nowNumber]["Japanese"]
             //isAnswerdをtrueにする
             isAnswered = true
             //ボタンのタイトルを変更する
