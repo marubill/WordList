@@ -243,8 +243,8 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="englishTextFeld" destination="AO2-69-K2p" id="77J-JY-bfN"/>
-                        <outlet property="japaneseTextFeild" destination="kiC-Yd-EBW" id="nkE-Rv-dTw"/>
+                        <outlet property="englishTextFeld" destination="AO2-69-K2p" id="fbk-By-R1z"/>
+                        <outlet property="japaneseTextFeild" destination="kiC-Yd-EBW" id="UBJ-XK-v3a"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="whm-Of-gxF" userLabel="First Responder" sceneMemberID="firstResponder"/>
