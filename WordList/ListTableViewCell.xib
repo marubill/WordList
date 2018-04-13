@@ -38,7 +38,7 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="englishLabel" destination="lWn-Rr-1xT" id="9QD-HF-413"/>
-                <outlet property="japaneseLabel" destination="fJb-CN-PP6" id="28v-Vz-MmC"/>
+                <outlet property="japaneseLabel" destination="fJb-CN-PP6" id="ZMP-wP-qzB"/>
             </connections>
         </tableViewCell>
     </objects>

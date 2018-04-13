@@ -103,7 +103,7 @@
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="nextButtonTapped" destination="LY0-27-6Wz" eventType="touchUpInside" id="Vpd-Mm-zQa"/>
+                                    <action selector="nextButtonTapped" destination="LY0-27-6Wz" eventType="touchUpInside" id="qdN-AJ-4T6"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -111,6 +111,9 @@
                         <viewLayoutGuide key="safeArea" id="jwZ-GW-n4H"/>
                     </view>
                     <connections>
+                        <outlet property="answerLabel" destination="M8r-uv-W8J" id="Vlz-NA-ceI"/>
+                        <outlet property="nextButton" destination="7MQ-IN-o8W" id="jnH-ok-xwo"/>
+                        <outlet property="questionLabel" destination="KDU-ei-Efg" id="Esj-3z-SCC"/>
                         <segue destination="RLr-5R-clg" kind="presentation" identifier="toFinishView" id="caC-AY-uUo"/>
                     </connections>
                 </viewController>
